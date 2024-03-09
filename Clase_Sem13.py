@@ -6,7 +6,7 @@ def convertir_temperatura(celsius):
   # Devolver una tupla con los resultados
   return (fahrenheit, kelvin)
 
-# Probar la función con un ejemplo
+# Probar la función
 celsius = 20
 fahrenheit, kelvin = convertir_temperatura(celsius)
 print(f"{celsius}°C son {fahrenheit}°F y {kelvin}K")
